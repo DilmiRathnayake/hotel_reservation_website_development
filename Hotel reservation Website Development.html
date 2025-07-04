@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <!-- <meta name="viewport" content="width-device-width, initial-scale=1.0"> -->
+    <title>Complete responsive hotel agency website design</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+
+    <!--font awesome cdn link-->
+    <!-- <link rel="stylesheet" href="fontawesome.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!--custome css file link-->
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <!--header section stars-->
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="#" class="logo"><span>H</span>otel</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#book">Book</a>
+            <a href="#packages">Packages</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+
+    <!--header selection ends-->
+
+    <!--login form container-->
+
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="">
+            <h3>Login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember me</label>
+            <p>forget password<a href="#"> click here</a></p>
+            <p>don't have an account?<a href="#"> register now</a></p>
+        </form>
+    </div>
+
+    <!--home section starts-->
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Welcome to a Global icon luxury</h3>
+            <p>discover new places with us,luxury awaits</p>
+            <a href="#" class="btn">discover more</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="vid-1.mp4"></span>
+            <span class="vid-btn" data-src="vid-2.mp4"></span>
+            <span class="vid-btn" data-src="vid-3.mp4"></span>
+            <span class="vid-btn" data-src="vid-4.mp4"></span>
+            <span class="vid-btn" data-src="vid-5.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="vid-1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+    </section>
+
+    <!--home section ends-->
+
+    <!--book section starts-->
+    <section class="book" id="book">
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+        <div class="row">
+            <div class="img">
+                <img src="hotel-booking.svg" alt="">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <h3>Where to</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="inputBox">
+                    <h3>How many</h3>
+                    <input type="number" placeholder="number of guests">
+                </div>
+                <div class="inputBox">
+                    <h3>Arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>Leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="book now">
+            </form>
+        </div>
+    </section>
+    <!--book section ends-->
+
+    <!--packages section starts-->
+
+    <section class="packages" id="packages">
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="360_F_226760954_HnzqHSCZSfd6ml7i3NfcagAxzIlU6uiD.webp" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Colombo</h3>
+                    <p> Colombo is the dream vacation destination for people who long to experience the wonders of a
+                        tropical paradise. With stunning beaches, delectable food, hospitable people, great colonial
+                        heritage sites and tourist activities galore, there is something for everyone.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">LKR25 000<span> LKR40 000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="471485-Kandy-Sri-Lanka.webp" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Kandy</h3>
+                    <p>Kandy is both an administrative and religious city and is also the capital of the Central
+                        Province. Kandy is the home of the Temple of the Tooth Relic (Sri Dalada Maligawa), one of the
+                        most sacred places of worship in the Buddhist world</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">LKR15 000<span> LKR25 000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="360_F_608139612_ttJdId75HkMOyf8q6x0J8t8p6RGDoajT.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Nuwara Eliya</h3>
+                    <p>Surrounded by hills and mountains Nuwara Eliya is a valley nestling among them. Originally there
+                        were no trees and it was a Patana. Famous for its cool English climate and rich soil which helps
+                        in the tea plantations, Nuwara Eliya has many water falls and streams and boasts of rare fauna
+                        and flora.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">LKR30 000<span> LKR50 000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="shutterstock_1385735960.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Galle</h3>
+                    <p>Galle is the jewel crowned to the timeless beauty of Sri Lanka. This historic city is situated at
+                        the banks of the southern coast of Sri Lanka. Built in 1588 by the Portugese, this ancient place
+                        is declared as world heritage sight by the UNESCO.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">LKR16 000<span> LKR28 000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="jaffna-sril-lanka-travel.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Jaffna</h3>
+                    <p>Jaffna has a unique culture within Sri Lanka as it is significantly influenced by southern Indian
+                        traditions, which affect everything from the language and religion to the spices used in their
+                        curries.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">LKR10 000<span> LKR20 000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <img src="360_F_616991501_vrUGZrKlD7AoYTOzGzBM9x5B8J6TEp8K.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i> Trincomalee</h3>
+                    <p>Trincomalee is a port city on the east coast of Sri Lanka. The Bay of Trincomalee's harbour is
+                        renowned for its large size and security; unlike every other in the Indian Sea, it is accessible
+                        to all types of craft in all weathers. The beaches are used for surfing, scuba diving, fishing
+                        and whale watching.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price">LKR15 000<span> LKR18 000</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--packages section ends-->
+
+    <!--services section starts-->
+    <section class="services" id="services">
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>Indulge in comfort without breaking the bank at our selection of affordable hotels. Designed for
+                    budget-conscious travelers seeking quality accommodations, our handpicked options offer a blend of
+                    convenience, comfort, and value. From cozy rooms to convenient amenities, these hotels provide a
+                    welcoming retreat after a day of exploring. Embrace affordability without sacrificing the quality of
+                    your stay—book your affordable escape now and embark on a memorable journey without the hefty price
+                    tag.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>Food and drinks are more than mere sustenance; they're an experience, a celebration of flavors and
+                    cultures. From tantalizing cuisines to refreshing beverages, they weave stories of tradition and
+                    innovation. Explore a diverse palate of tastes, from savory delights to sweet indulgences,
+                    accompanied by a spectrum of beverages that range from aromatic coffees to exquisite cocktails.
+                    Whether you crave comfort food or aspire to savor culinary adventures, the world of food and drinks
+                    offers a journey for every taste bud, inviting you to savor each moment.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>safty guide</h3>
+                <p>Safety guides are essential companions on any journey, offering a roadmap to secure and enjoyable
+                    experiences. Whether exploring new terrain or familiar ground, these guides prioritize your
+                    well-being. They encompass crucial tips, from staying aware of your surroundings to understanding
+                    local customs and laws. They emphasize preparedness, advocating for essentials like first-aid
+                    knowledge, emergency contacts, and travel insurance. Safety guides also spotlight the significance
+                    of personal health, encouraging vaccinations and proper hygiene practices. Above all, they advocate
+                    for mindful exploration, reminding us that adventure thrives alongside responsible decision-making
+                    and a respect for the environments and communities we encounter.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>around the sri lanka</h3>
+                <p>Sri Lanka, a vibrant tapestry of culture and natural beauty, offers an array of experiences waiting
+                    to be explored. From the lush tea plantations of Nuwara Eliya to the ancient ruins of Polonnaruwa,
+                    history and nature intertwine seamlessly. Immerse yourself in the bustling markets of Colombo or
+                    unwind on the golden shores of Mirissa's beaches. Delve into the rich heritage of Sigiriya's rock
+                    fortress or embark on a safari in Yala National Park to witness diverse wildlife in their natural
+                    habitat. With its diverse landscapes and warm hospitality, Sri Lanka beckons travelers to embrace
+                    its charm and create unforgettable memories around every corner.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>When it comes to the fastest way to travel, the skies reign supreme. With the speed and efficiency of
+                    modern airplanes, traversing vast distances has become a matter of mere hours. Zip through the
+                    clouds and cross continents in a fraction of the time it would take by any other means. Whether it's
+                    for business or pleasure, air travel remains the go-to choice for those seeking to arrive at their
+                    destination swiftly and seamlessly.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>adventures</h3>
+                <p>Embark on an adventure that transcends the ordinary an expedition where curiosity meets the unknown.
+                    Adventures beckon at every turn, from scaling rugged peaks to diving into the depths of the ocean.
+                    Traverse dense forests, wander through ancient ruins, or navigate bustling markets in far-off lands.
+                    Each step fuels adrenaline, ignites curiosity, and paints vivid stories of exploration. Adventure
+                    isn't merely about the destination; it's the thrilling journey that unfolds, pushing boundaries and
+                    unveiling the extraordinary in the world around us.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--services section ends-->
+
+    <!--gallery section starts-->
+    <section class="gallery" id="gallery">
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+        <div class="box">
+            <div class="box">
+                <img src="295690735.webp" alt="">
+                <div class="content">
+                    <h3>Shangri-La Colombo</h3>
+                    <a href="#" class="btn">see more</a>
+                    <p>Shangri-La Hotels and Resorts is a multinational hospitality company, founded in 1971 by tycoon
+                        Robert Kuok. It is a subsidiary of Kerry Properties, the company has over 100 luxury hotels and
+                        resorts with over 40,000 rooms in Africa, Asia, Europe, the Middle East, North America and
+                        Oceania.</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="434112848.webp" alt="">
+                <div class="content">
+                    <h3>Grand Serendib Hotel</h3>
+                    <a href="#" class="btn">see more</a>
+                    <p> The Grand Serendib offers a hillside retreat with an infinity pool, a grand sky lounge and well
+                        specious 24 luxurious rooms with private balcony's overlooking a 360' view.
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="174997700.webp" alt="">
+                <div class="content">
+                    <h3>Le Grand Galle By Asia Leisure</h3>
+                    <a href="#" class="btn">see more</a>
+                    <p>Fantastic luxury resort. Great location. Buffet breakfast is huge! Great way to finish off a 2
+                        week hectic holiday in Sri Lanka to just relax.</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="321939230.webp" alt="">
+                <div class="content">
+                    <h3>Araliya Green City Hotel</h3>
+                    <a href="#" class="btn">see more</a>
+                    <p>Araliya Green City consists of 192 Rooms and Suites. All of which are spacious and boasts
+                        magnificent views of the nearby Mount Pedro – the highest point in Sri Lanka or lush gardens of
+                        nearby Victoria Park and the greens of nearby famous Nuwara Eliya Golf Course.</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="156472088.webp" alt="">
+                <div class="content">
+                    <h3>Jetwing Jaffna</h3>
+                    <a href="#" class="btn">see more</a>
+                    <p>Jetwing Jaffna is a culturally contemporary luxury hotel located on the historical Mahatma Gandhi
+                        road, right next to Cargills Square, in the heart of Jaffna. Within walking distance to the
+                        city's lively market, railway and bus terminal as well as the iconic Jaffna Fort and Jaffna
+                        Library.</p>
+                </div>
+            </div>
+            <div class="box">
+                <img src="62967421.webp" alt="">
+                <div class="content">
+                    <h3>Hotel Tobiko</h3>
+                    <a href="#" class="btn">see more</a>
+                    <p>Great hosts and comfy room. The bed was probably the most comfortable we've had in Sri Lanka. The
+                        owners are very gentle and kind and the staff are excellent.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--gallery section ends-->
+
+    <!--review section starts-->
+
+    <section class="review" id="review">
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+        <div class="swiper mySwiper review-slider">
+            <div class="swiper-wrapper wrapper">
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg" alt="">
+                        <h3>Pathum Ranga</h3>
+                        <p>What an amazing place with amazing hosts! The place really felt like a home. There is private
+                            entry, leaving you with a lot of privacy. The room and the attached bathroom are spacious
+                            and clean. There is also a table with chairs inside so you can also do some work there. The
+                            location is great! Just between the 2 main roads of Weligama so it’s quiet and not even a
+                            minute walk to the beach. The town centre with budget-friendly local restaurants, big
+                            supermarket is about 8 mins walk. The owners are very friendly! I was asked every 2 days if
+                            I needed cleaning, even on my last day! Thank you for everything</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="young-asian-woman-professional-entrepreneur-600nw-2127014192.webp" alt="">
+                        <h3>Julie Yohana</h3>
+                        <p>The team was really good and helpful. The breakfast was very delicious and the room had a
+                            nice view on the rice fields. It was a good experience for our honeymoon trip. I would
+                            like to thank also Nish and Janaka ( our tuktuk driver) for their kindness</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="istockphoto-1319763895-612x612.jpg" alt="">
+                        <h3>James Henry</h3>
+                        <p>The pool and views were incredible! The bedrooms were clean and comfortable and the
+                            pillows were super comfy.The heart of the city, looks premium and has great service
+                            from the staff valve for money time well spent with fellow travellers.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="istockphoto-1289220545-612x612.jpg" alt="">
+                        <h3>Ava Charlotte </h3>
+                        <p>The pool and views were incredible! The bedrooms were clean and comfortable and
+                            the pillows were super comfy.The heart of the city, looks premium and has great
+                            service from the staff valve for money time well spent with fellow travellers.
+                        </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--review section ends-->
+
+    <!--contact section starts-->
+    <section class="contact" id="contact">
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+        <div class="row">
+            <div class="img">
+                <img src="customer-service-concept-illustration_114360-20680.jpg" alt="">
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="mail" placeholder="mail">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="subject">
+                </div>
+                <textarea placeholder="message" name="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </form>
+        </div>
+    </section>
+    <!--contact section ends-->
+
+    <!--brand section-->
+    <section class="brand-container">
+        <div class="image-container-grid-horizontal"><img src="shangri-la-colombo_f.jpg" alt="">
+            <img src="3CcEoSQ6Oe5WWbAq4qPG0IoKDrc1t84JsM5GHd4R.jpg" alt="">
+            <img src="logo.jpg" alt="">
+            <img src="images (1).png" alt="">
+            <img src="jetwing-hotels-new-logo-1-1219x339.jpg" alt="">
+        </div>
+
+    </section>
+
+    <!--footer section-->
+
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>about us</h3>
+                <p>Discover seamless travel experiences with Hotel Reservation Website. From exclusive accommodations to
+                    personalized service, we're here to make your journey unforgettable. Contact us at 011-2224200 and
+                    explore our destinations for your next adventure.</p>
+            </div>
+            <div class="box">
+                <h3>branch location</h3>
+                <a href="#">Colombo</a>
+                <a href="#">Kandy</a>
+                <a href="#">Nuwara Eliya</a>
+                <a href="#">Galle</a>
+                <a href="#">Jaffna</a>
+                <a href="#">Trincomalee</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="#">book</a>
+                <a href="#">package</a>
+                <a href="#">service</a>
+                <a href="#">gallery</a>
+                <a href="#">review</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="https://www.facebook.com/" class="footer__social-link">
+                   Facebook
+                </a>
+                </a>
+                <a href="https://www.instagram.com/" class="footer__social-link">
+                    Instagram
+                </a>
+                <a href="https://twitter.com /"class="footer__social-link">
+                    Twitter
+                </a>
+            </div>
+        </div>
+        <h1 class="credit">created by<span> Chamalsha Kavindhi</span>| All rights reserved.!!</h1>
+    </section>
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!--customer js file link-->
+
+    <script src="main.js"></script>
+</body>
+
+</html>
